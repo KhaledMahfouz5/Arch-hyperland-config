@@ -1,4 +1,4 @@
-@import "/home/abdalrahman/.config/wofi/catppuccin-macchiato.css";
+@import "~/.config/wofi/catppuccin-macchiato.css";
 
 #window {
 all:unset;
@@ -47,7 +47,9 @@ margin: 2px 0px;
 margin: 0px 2px;
 background-color: @base;
 border: 2px;
+color: black;
 }
+
 #entry:selected {
 background-color: @surface1;
 /* border: 2px solid @mauve; */
@@ -56,6 +58,7 @@ background-color: @surface1;
 #img {
 margin: 5px;
 }
+
 #img:selected {
 background-color: @surface1;
 }
@@ -65,6 +68,11 @@ margin: 5px;
 border: none;
 color: @text;
 }
+
 #text:selected {
 background-color: @surface1;
+}
+
+#expander-box label {
+color:black;
 }
