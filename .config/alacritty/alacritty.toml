@@ -26,3 +26,12 @@ style = "Regular"
 
 [cursor]
 style.shape = "underline"
+
+[selection]
+save_to_clipboard = true   
+
+[terminal]
+
+[terminal.shell]
+program = "/usr/bin/fish" 
+args = ["--login"]
