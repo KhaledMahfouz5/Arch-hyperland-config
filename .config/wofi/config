@@ -12,3 +12,4 @@ allow_markup=true
 drun-display_generic=false
 key_down=Down
 key_forward=Tab
+key_expand=Right

@@ -46,13 +46,14 @@ margin: 2px 0px;
 #entry {
 margin: 0px 2px;
 background-color: @base;
-border: 2px;
+border: 1px solid transparent;
+border-radius: 8px;
 color: black;
 }
 
 #entry:selected {
 background-color: @surface1;
-/* border: 2px solid @mauve; */
+border-color: @mauve;
 }
 
 #img {
@@ -71,8 +72,10 @@ color: @text;
 
 #text:selected {
 background-color: @surface1;
+border: none;
+color: @rosewater;
 }
 
 #expander-box label {
-color:black;
+color: @text;
 }
