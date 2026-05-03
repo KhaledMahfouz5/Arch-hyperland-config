@@ -110,8 +110,7 @@
 	"",
 	"",
 	""
-	],
-	"on-click": "sudo $HOME/.config/waybar/scripts/conservation_mode.sh"
+	]
 },
 "custom/media": {
 	"format": "{icon} {text}",
