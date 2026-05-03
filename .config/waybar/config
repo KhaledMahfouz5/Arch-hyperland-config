@@ -92,10 +92,10 @@
 	"tooltip": true
 },
 "custom/date_hijri": {
-	"exec": "$HOME/.config/waybar/modules/date_hijri.py",
-	"tooltip": false,
+	"exec": "sh -c 'd=$(date +%A); full=$($HOME/.config/waybar/modules/date_hijri.py); printf \"{\\\"text\\\":\\\"%s\\\",\\\"tooltip\\\":\\\"%s\\\"}\\n\" \"$d\" \"$full\"'",
+	"tooltip": true,
 	"interval": 60,
-	"return-type": "text",
+	"return-type": "json",
 	"format":" {} "
 },
 "battery": {
