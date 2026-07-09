@@ -4,6 +4,6 @@
 mkdir -p ~/Pictures/Screenshots
 
 # Capture screenshot
-FILE=~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png
+FILE=~/Pictures/Screenshots/screenshot-$(date +%F_%H-%M-%S).png
 
 grimblast --notify copysave area $FILE
