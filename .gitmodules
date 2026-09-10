@@ -1,3 +1,12 @@
-[submodule ".config/waybar/modules/Islamic-Prayer-Timings"]
-	path = .config/waybar/modules/Islamic-Prayer-Timings
-	url = git@github.com:abdalrahmanshaban0/Islamic-Prayer-Timings.git
+[submodule ".local/share/themes/Catppuccin-GTK-Theme"]
+	path = .local/share/themes/Catppuccin-GTK-Theme
+	url = https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme
+	ignore = all
+[submodule ".local/share/themes/Tokyonight-GTK-Theme"]
+	path = .local/share/themes/Tokyonight-GTK-Theme
+	url = https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme
+	ignore = all
+[submodule ".local/share/icons/capitaine-cursors"]
+	path = .local/share/icons/capitaine-cursors
+	url = https://github.com/keeferrourke/capitaine-cursors
+	ignore = all
