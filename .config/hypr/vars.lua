@@ -1,0 +1,5 @@
+return {
+    terminal    = "alacritty",
+    fileManager = "thunar",
+    menu        = "pidof wofi || wofi --show drun",
+}
