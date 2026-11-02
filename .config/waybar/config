@@ -18,6 +18,7 @@
 "wireplumber",
 "tray",
 "custom/notification",
+	"custom/kb_layout",
 "custom/date_hijri"
 ],
 "hyprland/window": {
@@ -91,6 +92,13 @@
 	"return-type": "json",
 	"tooltip": true
 },
+    "custom/kb_layout": {
+        "exec": "$HOME/.config/waybar/modules/kb_layout.sh",
+        "format": "{}",
+        "interval": 1,
+        "return-type": "json",
+        "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
+    },
 "custom/date_hijri": {
 	"exec": "sh -c 'd=$(date +%A); full=$($HOME/.config/waybar/modules/date_hijri.py); printf \"{\\\"text\\\":\\\"%s\\\",\\\"tooltip\\\":\\\"%s\\\"}\\n\" \"$d\" \"$full\"'",
 	"tooltip": true,

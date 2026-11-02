@@ -77,6 +77,7 @@ button:hover {
 #battery,
 #tray,
 #custom-notification,
+#custom-kb_layout,
 #custom-wlogout {
 	padding: 2px 10px;
 	margin: 4px;
