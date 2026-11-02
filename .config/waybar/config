@@ -73,7 +73,7 @@
 },
 "memory": {
 	"interval": 10,
-	"format": "{used}/{total}Gb"
+	"format": "{used:0.2f}/{total:0.2f}Gb"
 },
 "temperature": {
 	"interval": 1,
