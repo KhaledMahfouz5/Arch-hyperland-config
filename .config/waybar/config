@@ -144,8 +144,8 @@
 	//"format-icons": [ "<span foreground='#fab387'></span>" ]
 	"format-icons": {
 		"headphone": " ",
-		"hands-free": " ",
-		"headset": " ",
+		"hands-free": " ",
+		"headset": " ",
 		"phone": " ",
 		"portable": " ",
 		"car": " ",
