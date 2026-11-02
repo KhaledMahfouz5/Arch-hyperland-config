@@ -1,0 +1,19 @@
+(defpoll time_full :interval "1s" "date +'%H:%M'")
+(defpoll hijri_date :interval "60s" "python3 $HOME/Arch-hyperland-config/.config/waybar/modules/date_hijri.py")
+
+(defwidget right-sidebar []
+  (box :orientation "v" :space-evenly false :class "sidebar-box"
+    (label :text time_full :class "time-large")
+    (label :text hijri_date :class "date-hijri")
+  )
+)
+
+(defwindow sidebar
+  :monitor 0
+  :geometry (geometry :x "20px" :y "20px" :width "320px" :height "160px" :anchor "top right")
+  :stacking "bottom"
+  :exclusive false
+  :focusable false
+  :namespace "eww-sidebar"
+  (right-sidebar)
+)
