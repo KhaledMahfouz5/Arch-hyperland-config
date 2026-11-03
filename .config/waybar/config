@@ -4,22 +4,21 @@
 "spacing": 1,
 "modules-left": [
 	"custom/wlogout",
-"hyprland/workspaces",
-"hyprland/window"
+	"hyprland/workspaces",
+	"hyprland/window"
 ],
 "modules-center": [
-	"clock",
-"battery"
 ],
 "modules-right": [
 	"memory",
-"temperature",
-"cpu",
-"wireplumber",
-"tray",
-"custom/notification",
+	"temperature",
+	"cpu",
+	"battery",
+	"wireplumber",
+	"tray",
+	"custom/notification",
 	"custom/kb_layout",
-"custom/date_hijri"
+	"clock"
 ],
 "hyprland/window": {
 	"format": "{}"

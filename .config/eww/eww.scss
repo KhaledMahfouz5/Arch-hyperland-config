@@ -1,24 +1,59 @@
-@import "colors";
+$clock-font: "JetBrainsMono Bold", "Noto Sans", sans-serif;
+$clock-size: 64px;
+$clock-weight: 800;
 
-.sidebar-box {
+$shadow-big:   5px 6px 0 #000, 8px 9px 6px #000, 0 0 18px rgba(0,0,0,0.9);
+$shadow-small: 2px 3px 0 #000, 3px 4px 4px #000, 0 0 8px rgba(0,0,0,0.9);
+
+* {
+  background: none;
   background-color: transparent;
   border: none;
+  border-radius: 0;
   box-shadow: none;
-  padding: 10px;
 }
 
-.time-large {
-  font-family: "JetBrainsMono Bold", sans-serif;
-  font-size: 80px;
-  font-weight: 800;
-  color: rgba(255, 255, 255, 0.85);
-  text-shadow: 0 6px 24px rgba(0, 0, 0, 0.75), 0 2px 6px rgba(0, 0, 0, 0.5);
-  margin-bottom: 2px;
+window.eww-sidebar,
+.sidebar-box,
+.date-container {
+  background: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.sidebar-box {
+  padding: 16px;
+}
+
+.time-digits {
+  font-family: $clock-font;
+  font-size: $clock-size;
+  font-weight: $clock-weight;
+  color: #ffffff;
+  text-shadow: $shadow-big;
+}
+
+.time-ampm-inline {
+  font-family: $clock-font;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: $shadow-small;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.date-container {
+  padding: 6px 16px;
+  margin-top: 8px;
 }
 
 .date-hijri {
-  font-family: "JetBrainsMono Bold", sans-serif;
+  font-family: "JetBrainsMono Bold", "Noto Sans", sans-serif;
   font-size: 14px;
-  color: rgba(205, 214, 244, 0.75);
-  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.7), 0 1px 3px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: $shadow-small;
 }
